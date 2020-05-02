@@ -157,6 +157,9 @@ wget https://raw.githubusercontent.com/gHesssBoys/MCPBO/master/C800ABCD
 wget https://raw.githubusercontent.com/gHesssBoys/MCPBO/master/G800ABCD
 wget https://raw.githubusercontent.com/gHesssBoys/MCPBO/master/G801ABCD
 sleep 1
+mv C800ABCD /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11800.pak
+mv G800ABCD /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
+mv G801ABCD /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak
 echo ""
 echo -n "Loading" ; sleep .1 ; echo -n ".." ; sleep .2 ; echo -n "." ; sleep .2 ; echo -n ".." ; sleep .1
 echo ""
