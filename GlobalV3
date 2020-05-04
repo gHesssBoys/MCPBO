@@ -282,10 +282,7 @@ echo "╔═══════════════════════�
 echo "| ✪Hindari Report di dalam GAME                  |"
 echo "╚══════════════════════════════╝"
 echo ""
-wget https://raw.githubusercontent.com/gHesssBoys/MCPBO/master/UserCustom.ini
-mv UserCustom.ini /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/UserCustom.ini
-sleep 10
-
+sleep 2
 am start -n com.xbvqitfebbloqbyh/com.xbvqitfebbloqbyh.MainActivity
 sleep 2
 am start -n bin.mt.plus/bin.mt.plus.Main
